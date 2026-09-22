@@ -1,0 +1,63 @@
+Lattice Cheat Sheet
+
+Start the app:
+    python lattice.py
+
+You will see:
+    Lattice
+    Type "help" for commands. Type "exit" to quit.
+
+    lattice>
+
+Commands:
+
+    add "Concept Name" -d "Optional description"
+        Add a new concept.
+
+    list
+        Show all saved concepts.
+
+    evidence "Concept Name" studied -c 4 -n "Optional note"
+        Add learning evidence.
+
+    history "Concept Name"
+        Show the evidence timeline for a concept.
+
+    inspect "Concept Name"
+        Show mastery for each learning dimension.
+
+    relate "Source" prerequisite "Target"
+        Create a relationship between two concepts.
+
+    relationships "Concept Name"
+        Show all relationships involving a concept.
+
+    prereqs "Concept Name"
+        Show all prerequisites for a concept.
+
+    help
+        Show available commands.
+
+    exit
+        Quit the app.
+
+Valid evidence types:
+    encountered, studied, recalled, explained, applied, struggled, forgot
+
+Valid relationship types:
+    prerequisite, part_of, related_to
+
+Confidence values:
+    1 to 5
+
+Examples:
+    add "Photosynthesis" -d "How plants make food"
+    evidence "Photosynthesis" studied -c 4 -n "Reviewed the notes"
+    relate "Chlorophyll" prerequisite "Photosynthesis"
+    inspect "Photosynthesis"
+    prereqs "Photosynthesis"
+
+Notes:
+    - Concept names are matched case-insensitively.
+    - Use quotes if the name has spaces.
+    - Use "help" anytime for command help.
