@@ -38,8 +38,6 @@ prereqs "Calculus"
 
 Other commands you may be interested include `list`, `history`, and `relationships`. Data is saved locally in `lattice.json`. To reset your entire model, just delete the file; the program will create a brand new one if it sees one is missing.
 
-By the way, feedback is appreciated. 
-
 ## What's open for discussion
 
 My mastery formula is a design choice, not an actual measure of understanding. Evidence types have equal weight within their dimensions, and scores don't decay with time (something that actually does happen in the real world if you don't practice your skills regularly). Lattice can show the structure and evidence you've entered: it cannot establish what someone knows independently of their inputs. So, the program is dependent on one's self awareness and willingness to log data in. This is why I introduced CLI commands to make the whole process WAY faster; I don't want the user experience to be inefficient. Because this process could take some time, **speed** is key.
