@@ -1,6 +1,6 @@
 # Lattice
 
-[Build log, full version.](Captain's%20log.md) (Build log, concise version.)[Captain's%20log-concise.md]
+[Build log, full version.](Captain's%20log.md) [Build log, concise version.](Captain's%20Log-concise.md)
 
 Lattice is small CLI program that represents a person's knowledge as an external model. You add concepts, connect them, and record evidence of learning. Lattice uses your inputs to calculate a knowledge state for each concept.
 
