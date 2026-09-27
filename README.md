@@ -18,7 +18,9 @@ where $M$ = mastery, and $c_i$ = your confidence level (which is a user input, a
 
 The mastery scores remain separate; being able to recall something isn't the same as being able to apply it. I think one composite score would have been a misrepresentation of a person's actual mastery. Encounters, struggles, and forgetting can also be logged as evidence, but they don't change the scores; for this first version, I log them but haven’t decided how they should affect mastery. If mastery were one score, it would be a scalar value. But, with 4 dimensions, it's now a vector, which I think is a better mathematical representation of mastery.
 
-The build process made my theories concrete. I had to decide what exactly a relationship means, what the different relationship types were, how to avoid getting stuck in a cycle, what counts as evidence, and what a score can honestly claim. The result is a working program, with assumptions I can inspect and change, rather than a claim that I've cracked the theory of the mind.
+The build process made my theories concrete. I had to decide what exactly a relationship means, what the different relationship types were, how to avoid getting stuck in a cycle, what counts as evidence, and what a score can honestly claim. The result is a working program, with assumptions I can inspect and change, rather than a claim that I've cracked the theory of the mind, right?
+
+**I have not solved knowledge. Lattice is an experiment in representation. It asks whether useful aspects of a person's informational knowledge state can be made explicit, structured, and updateable. The program, to me, is a way for me to test my assumptions in code. If an assumption is wrong, I can change it and recompute the model.**
 
 ## Try It!
 
