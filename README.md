@@ -1,5 +1,7 @@
 # Lattice
 
+[Build log, full version.](Captain's%20log.md) (Build log, concise version.)[Captain's%20log-concise.md]
+
 Lattice is small CLI program that represents a person's knowledge as an external model. You add concepts, connect them, and record evidence of learning. Lattice uses your inputs to calculate a knowledge state for each concept.
 
 I built it to test a provisional idea: knowledge can be represented as a graph of concepts and relationships. Learning changes what we know and what we can do with the knowledge we have. Think of this as an external model of what you know, essentially. I didn't want to create something simpler like a list of topics, because that would have been too blunt. 
