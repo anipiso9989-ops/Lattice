@@ -2,7 +2,7 @@
 
 *This is a compressed account of how I built Lattice, focused on the decisions, failures, and technical lessons that shaped the project.*
 
-> **Transparency note:** I wrote the code myself, but I used ChatGPT at points to help debug syntax and logic errors.
+> **Transparency note:** I wrote the code myself, but I used ChatGPT minimally to help debug syntax and logic errors.
 
 ---
 
