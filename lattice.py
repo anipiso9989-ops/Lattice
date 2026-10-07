@@ -282,6 +282,7 @@ def add_relationship(
 
         elif (
             existing["type"] == "related_to"
+            and relationship_type == "related_to"
             and (
                 (
                     existing["source_id"] == source["id"]
